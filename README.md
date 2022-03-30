@@ -1,4 +1,11 @@
-
+## How to run
+```bash
+terraform init # get the providers
+terraform validate # validate the configuration
+terraform plan # plan the changes, check what will happen
+terraform apply # apply the changes or terraform apply -auto-approve
+terraform destroy # destroy the resources
+```
 
 
 ## Basic Commands
@@ -21,3 +28,5 @@
 **5 - terraform destroy**
     - Used to destroy the terraform managed infrastructure
     - This will ask for confirmation before destroying
+
+    
